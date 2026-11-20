@@ -42,6 +42,8 @@ users (user_id, full_name, email, city, status, created_at)
 3. Run `database/02_sample_data.sql` to insert the data.
 4. Run the queries from the `queries` folder one by one and check the result.
 
+All 46 queries are tested on MariaDB 10.11 (MySQL compatible) and run without errors.
+
 ## Example: Finding a Data Bug with SQL
 
 **Check:** the order total must be equal to the sum of its items.
