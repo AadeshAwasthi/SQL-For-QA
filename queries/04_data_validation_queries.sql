@@ -1,7 +1,8 @@
 -- DATA VALIDATION QUERIES
 -- These are the checks a QA engineer runs to find bad data in the database.
 -- Each query should return ZERO rows on clean data.
--- With the sample data in this repository, each query returns the faulty row.
+-- The sample data in this repository has a few wrong rows added on purpose:
+-- queries marked with "Finds:" return that faulty row, the other queries return zero rows.
 USE qa_demo_shop;
 
 -- 1. Duplicate emails (email must be unique)
